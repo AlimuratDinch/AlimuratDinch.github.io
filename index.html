@@ -36,6 +36,184 @@
 #home{
  font-weight: bold;
 }
+       #name{
+  background-image: url("./images/background.jpeg");
+  height: 300px;
+  text-align: center;
+  padding-top:100px;
+  margin-top: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  color:azure;
+  
+}
+
+#myStory{
+  background-color: #333;
+  color: #fff;
+  height: 300px;
+  font-family:'Times New Roman', Times, serif;
+}
+#name1{
+  font-size: 50px;
+ 
+}
+.story{
+  font-weight: bold;
+  font-size: 25px;
+  padding-left: 140px;
+  padding-top: 40px;
+
+}
+.storyInfo{
+  padding-left: 40px;
+  padding-right: 500px;
+  font-size:20px;
+}
+#about{
+  background-color: white;
+  color: #333;
+  height: 300px;
+  font-family:'Times New Roman', Times, serif;
+}
+.aboutMe{
+  font-weight: bold;
+  font-size: 25px;
+  padding-left: 540px;
+  padding-top: 20px;
+}
+.aboutMeStory{
+  padding-left: 540px;
+ 
+  font-size:20px;
+}
+
+#education{
+  background-color: #333;
+  color: #fff;
+  height: 580px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.text-container {
+  width: 200px;
+  height: 400px;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s;
+}
+
+.text-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  
+  padding-left: 140px;
+  padding-right: 500px;
+  font-size:20px;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.1s;
+}
+
+.zoomed {
+  transform: scale(1.2);
+}
+
+
+
+
+
+.container {
+  width: 350px;
+  height: 400px;
+  display: inline-block;
+  margin-right: 120px;
+}
+
+.container:last-child {
+  margin-right: 0;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: solid black;
+  border-radius: 20px;
+  border-width: 3px;
+  color: black;
+  margin-left: 65px;
+  padding-left:10px;
+  padding-right:10px;
+
+}
+
+.title {
+  font-size: 24px;
+  margin-top:40px;
+  margin-bottom: 40px;
+}
+
+.enlarge-text {
+  font-size: 16px;
+  transition: font-size 0.3s ease-in-out;
+}
+
+.enlarge-text:hover {
+  font-size: 20px; /* Customize the font size as needed */
+}
+.year{
+  position: absolute;
+  padding-left: 140px;
+  padding-top:300px
+}
+.container0 {
+  width: 474.5px;
+  height: 600px;
+  display: inline-block;
+  margin-right: 0px;
+  background-size: cover;
+  background-position: center;
+}
+
+.container0:last-child {
+  margin-right: 0;
+}
+
+.container1 {
+  background-image: url('./images/foot1.jpeg');
+}
+
+.container2 {
+  background-image: url('./images/jazz2.webp');
+}
+
+.container3 {
+  background-image: url('./images/math.jpeg');
+}
+
+.box1 {
+  width: 100%;
+  height: 100%;
+}
+.title1{
+ 
+  color:white;
+  font-size: 50px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin: 0;
+}
         </style>
         
     </head>
@@ -49,6 +227,75 @@
         <li><a href="#">Projects</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
+        <div id = "name"  >
+      
+        <p id ="name1">Hi, I am Alimurat</p>
+        <p id = "info1">A guy who loves adventures</p>
+      </div>
+      <div id= "myStory"  
+      >
+          <p class = "story">My Story</p>
+          <p >I was always curious about discovering the new features in life. I first started coding in Python when I was in College.
+          When I first wrote my "Hello World" program, I felt the power in my hands such that I can code everything. This was just the beginning of my long code 
+          learning adventure. I cointinued learning how to code by learning, Java, C#, HTML, CSS, JavaScript, PHP and React</p>
+      </div>
+
+      <div id= "about">
+          <p class = "aboutMe">About Me</p>
+          <p class = "aboutMeStory">I like to talk to people and work in the group projects so that I can hear other opinions about different topics.
+          I am a trumpet player and I am so passionated about Jazz Music,especially Blue Jazz. Moreover, I like sports such as Football, Tennis and Ping-Pong. My dream is to go and watch
+          a Champions League final one day.</p>
+      </div>
+
+      <div id = "education">
+        <p class = "story">Education</p>
+        
+        <div class="container">
+  <div class="box">
+    <h2 class="title">Ecole Secondaire Saint-Luc</h2>
+    <p class="enlarge-text">It is a French high-school that is located in NDG Montreal.</p>
+    <p class= "year">2017-2020</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="box">
+    <h2 class="title">Marianopolis College</h2>
+    <p class="enlarge-text">It is an anglophone college loacted in west-mount. I completed the health science program</p>
+    <p class= "year">2020-2022</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="box">
+    <h2 class="title">Concordia University</h2>
+    <p class="enlarge-text">I went to Bachelor of Software Engineering.</p>
+    <p class= "year">2022-Present</p>
+  </div>
+</div>
+</div>
+
+<div class="container0 container1">
+  
+  <div class="box1">
+    <h2 class = "title1">Football</h2>
+  </div>
+</div>
+
+<div class="container0 container2">
+  <div class="box1">
+    <h2 class = "title1">Jazz</h2>
+  </div>
+</div>
+
+<div class="container0 container3">
+  <div class="box1">
+    <h2 class = "title1">Mathematics</h2>
+  </div>
+</div>
+      
+      
+
       </body>
     
 </html>
